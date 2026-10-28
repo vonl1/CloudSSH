@@ -14,6 +14,8 @@ IDLE_TIMEOUT = "30m"
 REQUIRE_GITHUB_AUTH = "false"
 # SSH 远端主机公钥签名严格校验：默认 fail-closed；仅本地调试老旧服务器时才允许 "false"
 STRICT_HOST_KEY_VERIFY = "true"
+# 设置默认的cf用户登录禁止
+CF_ACCESS="false",
 
 # 构建监视路径：仅源代码变动时触发重新构建
 [build]
